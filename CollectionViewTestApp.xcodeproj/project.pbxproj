@@ -13,6 +13,8 @@
 		55D5BA47234E0E7D001E6074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D5BA45234E0E7D001E6074 /* Main.storyboard */; };
 		55D5BA49234E0E7E001E6074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D5BA48234E0E7E001E6074 /* Assets.xcassets */; };
 		55D5BA4C234E0E7E001E6074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D5BA4A234E0E7E001E6074 /* LaunchScreen.storyboard */; };
+		55D5BA55234E13EA001E6074 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D5BA53234E13EA001E6074 /* CollectionViewCell.swift */; };
+		55D5BA56234E13EA001E6074 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D5BA54234E13EA001E6074 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55D5BA48234E0E7E001E6074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D5BA4B234E0E7E001E6074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D5BA4D234E0E7E001E6074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D5BA53234E13EA001E6074 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		55D5BA54234E13EA001E6074 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				55D5BA48234E0E7E001E6074 /* Assets.xcassets */,
 				55D5BA4A234E0E7E001E6074 /* LaunchScreen.storyboard */,
 				55D5BA4D234E0E7E001E6074 /* Info.plist */,
+				55D5BA53234E13EA001E6074 /* CollectionViewCell.swift */,
+				55D5BA54234E13EA001E6074 /* CollectionViewCell.xib */,
 			);
 			path = CollectionViewTestApp;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				55D5BA4C234E0E7E001E6074 /* LaunchScreen.storyboard in Resources */,
 				55D5BA49234E0E7E001E6074 /* Assets.xcassets in Resources */,
+				55D5BA56234E13EA001E6074 /* CollectionViewCell.xib in Resources */,
 				55D5BA47234E0E7D001E6074 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				55D5BA44234E0E7D001E6074 /* ViewController.swift in Sources */,
 				55D5BA40234E0E7D001E6074 /* AppDelegate.swift in Sources */,
+				55D5BA55234E13EA001E6074 /* CollectionViewCell.swift in Sources */,
 				55D5BA42234E0E7D001E6074 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
